@@ -7,5 +7,5 @@ if(year%4)==0:
       print("no")
   else:
     print("yes")
- else:
+else:
   print("no")
