@@ -1,7 +1,7 @@
 p,q=map(str,input().split())
 if (len(p)==len(q)):
-  print(p)
+    print(p)
 elif (len(p)>len(q)):
-  print(p)
+    print(p)
 else:
-    print(q)   
+    print(q)     
