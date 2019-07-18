@@ -1,2 +1,2 @@
-q=int(input())
+q=input()
 print(len(q))        
