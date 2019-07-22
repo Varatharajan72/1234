@@ -1,2 +1,2 @@
 Ch=input()
-print(ord(Ch))
+print(ord(Ch))             
