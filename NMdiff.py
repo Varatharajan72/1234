@@ -1,0 +1,9 @@
+N,M=map(int,input().split())
+if(N>M):
+	difference=N-M
+else:
+	difference=M-N
+if(difference%2==0):
+	print('even')
+else:
+	print('odd')              
