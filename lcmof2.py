@@ -1,17 +1,17 @@
-x,y=map(int,input().split())
-def lcm(x, y):
-   if x > y:
-       z = x
+N,M=map(int,input().split())
+def lcm(N,M):
+   if  N>M:
+       z=N
    else:
-       z = y
+       z=M
 
    while(True):
-       if((z % x == 0) and (z % y == 0)):
-           lcm = z
+       if((z%N==0) and (z% M==0)):
+           lcm=z
            break
-       z += 1
+       z+=1
 
    return lcm
 
 
-print(lcm(x,y))
+print(lcm(N,M))
