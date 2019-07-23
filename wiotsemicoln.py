@@ -3,5 +3,5 @@ punctuations='''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 no_semicolon=""
 for k in S:
    if k not in punctuations:
-       no_semicolon+=char
+       no_semicolon+=k
 print(no_semicolon)
