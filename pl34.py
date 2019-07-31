@@ -1,2 +1,5 @@
 S=str(input())
-print(S[0],S[3],sep="")
+u=[]
+for i in range(0,len(S),3):
+  u.append(S[i])
+print(*u,sep="")
